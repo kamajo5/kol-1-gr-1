@@ -86,15 +86,21 @@ public function  LoveAction()
     /* P */
 
     /* Q */
-/**
- * @Route("/Quickly.html", name="Quickly")
- */
-public function QuicklyAction()
-{
-    return $this->render('default/Quickly.html.twig');
-}
+    /**
+    * @Route("/Quickly.html", name="Quickly")
+    */
+    public function QuicklyAction()
+    {
+     return $this->render('default/Quickly.html.twig');
+    }
     /* R */
-
+    /**
+    * @Route("/reap.html", name="reap")
+    */
+    public function reapAction()
+    {
+     return $this->render('default/reap.html.twig');
+    }
     /* S */
 
     /* T */
