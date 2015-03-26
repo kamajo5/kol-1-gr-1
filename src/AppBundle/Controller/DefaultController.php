@@ -94,6 +94,7 @@ public function  LoveAction()
      return $this->render('default/Quickly.html.twig');
     }
     /* R */
+    
     /**
     * @Route("/reap.html", name="reap")
     */
